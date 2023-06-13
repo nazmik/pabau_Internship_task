@@ -13,7 +13,7 @@ const Step2 = ({ setCurrentStep }) => {
 	return (
 		<div className={styles.main}>
 			<h3>Selected Option: {optionName}</h3>
-			<Link to="/" onClick={handleGoBack}>
+			<Link to="/" onClick={handleGoBack} className={styles['back-button']}>
 				&larr; Go Back
 			</Link>
 		</div>
