@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
 	changeButtn.addEventListener('click', function (e) {
 		e.preventDefault();
 		const checkboxes = checkboxForm.querySelectorAll('input[type="checkbox"]');
-		console.log(checkboxes);
+		// console.log(checkboxes);
 		checkboxes.forEach((checkbox) => {
 			const label = checkbox.parentNode;
 			label.textContent = 'Pabau new Value';
